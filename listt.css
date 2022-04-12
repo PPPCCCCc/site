@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 게시판 공통 */
+
+
+#main-content ol{
+	float:right;
+	margin-top: -25px;
+}
+#main-content li{
+	float:left;
+}
+
+.A:after{
+	content: " >";
+}
+
+#contents>#main-content> #main-content-header {
+	padding: 18px 0px 5px 0px;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+th{
+	border-top:1px solid  #000000;
+    border-bottom:2px dotted  #bfbfbf;
+    background-color:#bfbfbf;
+    width:250px;
+    height: 40px;
+    text-align: center;
+    
+}
+tr{
+    border-top:1px dotted;
+    border-bottom:2px dotted  #bfbfbf;
+    height: 40px;
+    text-align: center;
+    
+         }
+.txt-center{                
+          border-bottom: 1px solid  #000000;
+                     
+         }
+         
+table{
+               border-collapse: collapse;
+               font-size: 13px; 
+}
+
+#T{
+	font-size: 13px;
+	font-family: "맑은 고딕", 돋움, 굴림;
+	resize: none;
+	position: relative;
+	left:615px;
+	top: 10px;
+}
+#B{
+	position: relative;
+	left:615px;
+	width: 60px;
+	height: 35px;
+	bottom: 2px;
+	
+}
+
+#B2{
+	position: relative;
+	left:730px;
+	width: 90px;
+	height: 35px;
+	top: 10px;	
+}
+
+.page-wrap {
+	text-align:center;	
+ }
+ 
+ 
+#next1:before{
+	content: "◀";
+}
+
+#next2:after{
+	content: "▶";
+}
+
